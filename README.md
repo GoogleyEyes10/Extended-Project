@@ -41,7 +41,7 @@ Spelling.pos = (500, 250)
 def draw_spelling():
     Spelling.draw()
 
-def down_mouse_on(pos):
+def on_mouse_down(pos):
     global ENGLISHSTARTED
     if English.collidepoint(pos):
         ENGLISHSTARTED = True 
